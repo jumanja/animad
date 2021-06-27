@@ -186,6 +186,16 @@
 									transform={image.transform}
 								/>
 							{/if}
+							{#if !image.effect}
+								<image
+									href={image.value}
+									x={image.x}
+									y={image.y}
+									{width}
+									{height}
+									transform={image.transform}
+								/>
+							{/if}
 						{/if}
 					{/each}
 				{/if}
