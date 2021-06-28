@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "name": "Visita de Jesús a Nazareth",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/MR-006-001-005.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "MR/portada_Leon.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 10,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "Marcos 6",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 8,
+                "x": 130,
+                "dy": 20
+            },
+            {
+                "value": "Visita de Jesús",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 8,
+                "x": 130,
+                "dy": 40
+            },
+            {
+                "value": "a Nazareth",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 8,
+                "x": 130,
+                "dy": 50
+            },
+            {
+                "value": "",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 8,
+                "x": 130,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 10
+        },
+		"images": [
+            {
+                "value": "MR/apostoles_jesus_caminan.png",
+                "x": 0,
+                "y": 0,
+                "start": 14,
+                "end": 23,
+                "transform": "translate(240,-10) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/sinagogacolor.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 24,
+                "end": 80,
+                "transform": "translate(240) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/apostoles_jesus_caminan2.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 81,
+                "end": 200,
+                "transform": "translate(240) scale(1.01,1.01)"
+            }
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_abajo2.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]
