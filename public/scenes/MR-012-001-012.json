@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "name": "La Parábola de los Viñadores Homicidas",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/MR-012-001-012.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "MR/portada_Leon.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "Marcos 12",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 20
+            },
+            {
+                "value": "La Parábola de",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 40
+            },
+            {
+                "value": "los Viñadores ",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 50
+            },
+            {
+                "value": "Homicidas",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "MR/vinia.png",
+                "x": 0,
+                "y": 0,
+                "start": 17,
+                "end": 89,
+                "transform": "translate(240) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/casadividida_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 90,
+                "end": 125,
+                "transform": "translate(10, -50) scale(2,2)"
+            },
+            {
+                "value": "MR/vinia2.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 126,
+                "end": 143,
+                "transform": "translate(240) scale(1.01,1.01)"
+            }
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_abajo2.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]

@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "name": "La recompensa prometida a los discípulos",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/MR-010-028-031.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "MR/portada_Leon.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 20
+            },
+            {
+                "value": "La recompensa",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 40
+            },
+            {
+                "value": "prometida a los",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 50
+            },
+            {
+                "value": "discípulos",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 60
+            },
+            {
+                "value": "",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 70
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "MR/apostoles.png",
+                "x": 50,
+                "y": 0,
+                "start": 15,
+                "end": 20,
+                "transform": "translate(235, 5) scale(1,1)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "MR/jesus_apostoles_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 10,
+                "end": 20,
+                "transform": "translate(200) scale(0.8, 0.8)",
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            },
+            {
+                "value": "MR/apostoles_jesus_caminan_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 21,
+                "end": 50,
+                "transform": "translate(240) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/apostoles.png",
+                "x": 50,
+                "y": 0,
+                "start": 51,
+                "end": 65,
+                "transform": "translate(235, 5) scale(1,1)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "MR/jesus_apostoles_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 50,
+                "end": 65,
+                "transform": "translate(200) scale(0.8, 0.8)",
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_abajo2.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]
