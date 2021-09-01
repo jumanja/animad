@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "name": "La oración de Jesús en Getsemaní",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/MR-014-032-042.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "MR/portada_Leon.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 20
+            },
+            {
+                "value": "La oración de",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 40
+            },
+            {
+                "value": "Jesús en",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 50
+            },
+            {
+                "value": "Getsemaní",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 130,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "MR/apostoles_jesus_caminan3_cuaresma.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 8,
+                "end": 25,
+                "transform": "translate(240) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/apostoles_jesus_caminan2_transfig.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 26,
+                "end": 48,
+                "transform": "translate(240) scale(1.01,1.01)"
+            },
+            {
+                "value": "MR/getsemani.png",
+                "x": 50,
+                "y": 0,
+                "start": 49,
+                "end": 85,
+                "transform": "translate(200)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "MR/anuncio_negacion.png",
+                "x": 50,
+                "y": 0,
+                "start": 86,
+                "end": 109,
+                "transform": "translate(200, -20)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "MR/getsemani.png",
+                "x": 50,
+                "y": 0,
+                "start": 110,
+                "end": 132,
+                "transform": "translate(200)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "MR/anuncio_negacion.png",
+                "x": 50,
+                "y": 0,
+                "start": 133,
+                "end": 164,
+                "transform": "translate(200, -20)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 3500,
+                "animParam3": 100,
+                "animParam4": 3500
+            }
+
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 260,
+                "dy": 125,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_atras_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]
