@@ -1,0 +1,186 @@
+[
+    {
+        "id": 1,
+        "name": "El anuncio del nacimiento de Jesús",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/LC-001-026-038.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "LC/portada_Toro.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 20
+            },
+            {
+                "value": "El anuncio del ",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 40
+            },
+            {
+                "value": "nacimiento de ",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 50
+            },
+            {
+                "value": "Jesús",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "LC/virgen_maria.png",
+                "x": 50,
+                "y": 0,
+                "start": 12,
+                "end": 29,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/angel.png",
+                "x": 50,
+                "y": 0,
+                "start": 30,
+                "end": 152,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/virgen_maria2.png",
+                "x": 50,
+                "y": 0,
+                "start": 42,
+                "end": 90,
+                "transform": "translate(120)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": 100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/virgen_maria.png",
+                "x": 50,
+                "y": 0,
+                "start": 92,
+                "end": 133,
+                "transform": "translate(140)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": -100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/virgen_maria2.png",
+                "x": 50,
+                "y": 0,
+                "start": 143,
+                "end": 161,
+                "transform": "translate(140)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": 100,
+                "animParam4": 3500
+            }
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "LC/isabel.png",
+                "x": 0,
+                "y": 0,
+                "start": 245,
+                "end": 266,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]
