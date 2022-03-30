@@ -1,0 +1,225 @@
+[
+    {
+        "id": 1,
+        "name": "Demo ",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/demo.mp3",
+        "previousURL": "?",
+        "nextURL": "?",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "LC/portada_Toro.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "Lucas 5",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 20
+            },
+            {
+                "value": "",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 40
+            },
+            {
+                "value": "La pesca",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 50
+            },
+            {
+                "value": "milagrosa",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+        "svg": [
+            {
+                "tag": "rect",
+                "fillColor": "#bada55",
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 100,
+                "start": 12,
+                "end": 15,
+                "transform": "translate(240)",
+                "effect": "infade_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            },
+            {
+                "tag": "ellipse",
+                "fillColor": "#787f6a",
+                "cx": 283.5,
+                "cy": 27.5,
+                "rx": 40,
+                "ry": 40,
+                "start": 12,
+                "end": 15,
+                "transform": "translate(20)",
+                "effect": "infade_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            },
+            {
+                "tag": "circle",
+                "fillColor": "#000000",
+                "cx": 283.5,
+                "cy": 27.5,
+                "r": 10,
+                "start": 12,
+                "end": 15,
+                "transform": "translate(20)",
+                "effect": "infade_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            },
+            {
+                "tag": "path",
+                "fill": "none",
+                "stroke": "#000000",
+                "d": "M 100 350 q 150 -300 300 0",
+                "strokeWidth": "5",
+                "start": 12,
+                "end": 15,
+                "transform": "translate(50, -130) scale(0.7)"
+            }
+
+        ],
+		"images": [
+            {
+                "value": "MR/jesus_apostoles.png",
+                "x": 0,
+                "y": 0,
+                "start": 12,
+                "end": 15,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            },
+            {
+                "value": "LC/redes.png",
+                "x": 0,
+                "y": 0,
+                "start": 15,
+                "end": 16,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            }
+
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_atras_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "name": "El nacimiento de Jesús",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/LC-002-001-007.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "LC/portada_Toro.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "Lucas 2",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 20
+            },
+            {
+                "value": "",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 40
+            },
+            {
+                "value": "El nacimiento",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 50
+            },
+            {
+                "value": "de Jesús",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "LC/a_belen.png",
+                "x": 50,
+                "y": 0,
+                "start": 12,
+                "end": 44,
+                "transform": "translate(200)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 24500,
+                "animParam3": -100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/san_jose.png",
+                "x": 50,
+                "y": 0,
+                "start": 43,
+                "end": 67,
+                "transform": "translate(140)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 10500,
+                "animParam3": -100,
+                "animParam4": 3500
+            },
+            {
+                "value": "LC/virgen_maria.png",
+                "x": 50,
+                "y": 0,
+                "start": 48,
+                "end": 67,
+                "transform": "translate(120)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 8500,
+                "animParam3": -100,
+                "animParam4": 3000
+            },
+            {
+                "value": "LC/ninio_Dios.png",
+                "x": 50,
+                "y": 0,
+                "start": 65,
+                "end": 90,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": -10,
+                "animParam2": 20500,
+                "animParam3": 100,
+                "animParam4": 3000
+            }
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "LC/templo2.png",
+                "x": 0,
+                "y": 0,
+                "start": 210,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "LC/Zacarias2.png",
+                "x": 0,
+                "y": 0,
+                "start": 220,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "LC/isabel.png",
+                "x": 0,
+                "y": 0,
+                "start": 245,
+                "end": 266,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]

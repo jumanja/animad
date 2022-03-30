@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "Enseñanza de Jesús en la sinagoga de Cafarnaún",
+        "author": "xamdox.website",
+        "coverURL": "xamdox_cover.png",
+        "src": "audio/LC-004-031-032.mp3",
+        "viewBox": {
+            "a": 0,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 0.5
+        },
+        "images": [
+            {
+                "value": "LC/portada_Toro.png",
+                "x": 0,
+                "y": 0,
+                "start": -1,
+                "end": 7,
+                "effect": "infade_outfly",
+                "animParam1": -200,
+                "animParam2": 4000
+            }
+        ],
+        "texts": [
+            {
+                "value": "",
+                "class": "subtitulo",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 20
+            },
+            {
+                "value": "Enseñanza de Jesús ",
+                "class": "subtitulo title-1",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 40
+            },
+            {
+                "value": "en la sinagoga de ",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 50
+            },
+            {
+                "value": "Cafarnaún",
+                "class": "subtitulo title-2",
+                "start": 0.3,
+                "end": 6,
+                "x": 30,
+                "dy": 60
+            }
+        ],
+        "back": {
+            "fillColor": "#000"
+        }
+    },
+    {
+        "id": 2,
+        "viewBox": {
+            "a": 240,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 8
+        },
+		"images": [
+            {
+                "value": "MR/sinagogacolor.jpg",
+                "x": 0,
+                "y": 0,
+                "start": 16,
+                "end": 31,
+                "transform": "translate(240)",
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 500,
+                "animParam3": -10,
+                "animParam4": 500
+            }
+
+        ],
+		"texts": [
+            {
+                "value": "xamdox.website",
+                "start": 10,
+                "end": 16,
+                "class": "legend",
+                "x": 250,
+                "dy": 120,
+                "effect": "infly_outfly",
+                "animParam1": 100,
+                "animParam2": 2500,
+                "animParam3": -10,
+                "animParam4": 2500
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(240)"
+        }
+    },
+    {
+        "id": 3,
+        "viewBox": {
+            "a": 480,
+            "b": 0,
+            "c": 240,
+            "d": 135,
+            "time": 200
+        },
+		"images": [
+            {
+                "value": "MR/casajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 200,
+                "end": 240,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/jesus_mira_atras_cuaresma.png",
+                "x": 0,
+                "y": 0,
+                "start": 218,
+                "end": 230,
+                "transform": "translate(480)"
+            },
+            {
+                "value": "MR/hijajairo.png",
+                "x": 0,
+                "y": 0,
+                "start": 240,
+                "end": 282,
+                "transform": "translate(480)"
+            }
+        ],
+		"back": {
+            "fillColor": "#000",
+            "transform": "translate(480)"
+        }
+    }
+]

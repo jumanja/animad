@@ -51,6 +51,21 @@
 		};
 	}
 
+	function previousOnStart() {
+		if (currentTime - 5 <= 0) {
+			window.location.href = audio.previousURL;
+		} else {
+			currentTime -= 5;
+		}
+	}
+
+	function nextOnEnd() {
+		currentTime += 5;
+		if (currentTime >= duration) {
+			window.location.href = audio.nextURL;
+		}
+	}
+
 	/*	
     onMount(async () => {
 		if(urlParams.has('animad')){
@@ -97,15 +112,15 @@
 	const shortcut = {
 		ArrowUp: () => (volume += 0.05),
 		ArrowDown: () => (volume -= 0.05),
-		ArrowLeft: (e) => (currentTime -= 5),
-		ArrowRight: (e) => (currentTime += 5),
+		ArrowLeft: (e) => previousOnStart,
+		ArrowRight: (e) => nextOnEnd,
 		Space: () => (paused = !paused),
 		KeyP: () => (paused = true),
 		KeyM: () => (muted = !muted),
 	};
 
 	async function getScenes() {
-		let response = await fetch(`scenes/${urlParams.get("animad")}.json`);
+		let response = await fetch(`scenes/${urlParams.get("animad") ? urlParams.get("animad"): 'demo'}.json`);
 		let scenes = await response.json();
 		audio = scenes[0];
 		return scenes;
@@ -173,6 +188,71 @@
 					fill={scene.back.fillColor}
 					transform={scene.back.transform}
 				/>
+
+				<!-- Process Svg if the scene has svg -->
+				{#if scene.svg}
+					{#each scene.svg as svg}
+						<!-- out:fly="{{ x: -200, duration: 4000 }}" in:fade -->
+						{#if currentTime > svg.start && currentTime < svg.end}
+							{#if svg.tag == "rect"}
+								{#if !svg.effect}
+									<rect
+										width={svg.width}
+										height={svg.height}
+										fill={svg.fillColor}
+										transform={svg.transform}
+										x={svg.x}
+										y={svg.y}
+
+									/>
+								{/if}
+								{#if svg.effect == "infade_outfly"}
+									<rect
+										x={svg.x}
+										y={svg.y}
+										width={svg.width}
+										height={svg.height}
+										fill={svg.fillColor}
+										transform={svg.transform}
+										in:fade
+										out:fly={{
+											x: svg.animParam1,
+											duration: svg.animParam2,
+										}}
+									/>
+								{/if}
+							{/if}
+							{#if svg.tag == "ellipse"}
+								<ellipse
+									cx={svg.cx}
+									cy={svg.cy}
+									rx={svg.rx}
+									ry={svg.ry}
+									fill={svg.fillColor}
+									transform={svg.transform}
+								/>
+							{/if}
+							{#if svg.tag == "circle"}
+								<circle
+									cx={svg.cx}
+									cy={svg.cy}
+									r={svg.r}
+									fill={svg.fillColor}
+									transform={svg.transform}
+								/>
+							{/if}
+							{#if svg.tag == "path"}
+								<path
+									d={svg.d}
+									stroke={svg.stroke}
+									stroke-width={svg.strokeWidth}
+									fill={svg.fill}
+									transform={svg.transform}
+								/>
+							{/if}
+						{/if}
+					{/each}
+				{/if}
 
 				<!-- Process Images if the scene has images -->
 				{#if scene.images}
@@ -387,13 +467,13 @@
 			</div>
 		</div>
 		<div class="buttons">
-			<button type="button" on:click={(e) => (currentTime = 0)}>
+			<button type="button" on:click={previousOnStart}>
 				Prev
 			</button>
 			<button type="button" on:click={(e) => (paused = !paused)}>
 				{paused ? "Play" : "Pause"}
 			</button>
-			<button type="button" on:click={(e) => (currentTime += 5)}>
+			<button type="button" on:click={nextOnEnd}>
 				Next
 			</button>
 		</div>
