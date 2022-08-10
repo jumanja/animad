@@ -92,7 +92,7 @@
             },
             {
                 "tag": "ellipse",
-                "fillColor": "#787f6a",
+                "fillColor": "#ffffdd",
                 "cx": 283.5,
                 "cy": 27.5,
                 "rx": 40,
@@ -108,7 +108,7 @@
             },
             {
                 "tag": "circle",
-                "fillColor": "#000000",
+                "fillColor": "#deccaa",
                 "cx": 283.5,
                 "cy": 27.5,
                 "r": 10,
